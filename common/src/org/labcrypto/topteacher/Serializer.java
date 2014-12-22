@@ -1,7 +1,8 @@
 package org.labcrypto.topteacher;
 
-/**
- * Created by Kamran Amini <kam.cpp@gmail.com> on 8/28/14.
- */
+import java.nio.Buffer;
+
 public interface Serializer {
+
+    Buffer serialize(Message message);
 }
