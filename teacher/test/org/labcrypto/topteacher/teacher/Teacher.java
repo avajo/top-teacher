@@ -4,6 +4,6 @@ import org.labcrypto.topteacher.teacher.ui.TeacherFrame;
 
 public class Teacher {
     public static void main(String[] args) {
-        new TeacherFrame();
+        new TeacherFrame(new TestServiceLocator());
     }
 }
